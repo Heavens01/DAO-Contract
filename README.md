@@ -34,6 +34,7 @@ Flow
 ### Usage
 
 1. **Contract Deployment**:
+    * Run `forge build` and `forge test`
     * Manually deploy contracts in the following order: GovToken, Timelock, Box, MyGovernor.
     * Configure Timelock as the owner of Box and the DAO as the proposer for Timelock.
     * Set MyGovernor to use GovToken and Timelock addresses.
